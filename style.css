@@ -24,6 +24,9 @@ header, nav, footer, section, aside {
 
 }
 
+#columns {
+	display:flex;
+}
 
 section {
 	float: left;
@@ -44,7 +47,6 @@ article {
 	padding: 15px;
 	color: #ebebeb;
 	background: #777;
-	box-sizing: border-box;
 }
 
 h4, p {
